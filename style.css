@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body{
+    width: 1439px;
+}
+
+.container{
+    display: flex;
+}
+.container_logo{
+    margin-top: 38.81px;
+    margin-left: 119.61px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 38px;
+    margin-top: 42px;
+}
+.navigation_list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation_list-link{
+    margin-right: 57px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    
+}
+.navigation_btns{
+    display: flex;
+}
+.navigation_nav-btn{
+    margin-right: 14px;
+    white-space: nowrap;
+    border-radius: 5px;
+    width: 146px;
+    height: 49px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+.btn_first{
+    background: #124c5f;
+    padding: 14px 44px 25px 43px;
+    color: #fff;
+}
+.btn_two{
+    background: #c7e7e1;
+    padding: 14px 17px 25px 43px;
+    color: #124c5f;
+}
+.section{
+    max-width: 1670px;
+    background-image: url();
+}
+.block_info{
+    margin-top: 156.03px;
+    margin-left: 201px;
+}
+.block_title{
+    padding-bottom: 14px;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+.block_text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    color: #181817;
+    margin-bottom: 39px;
+}
+.block_btn{
+    display: flex;
+    border-radius: 5px;
+    width: 192px;
+    height: 59px;
+    background: #124c5f;
+    border: none;
+}
+.block_btn-text{
+    padding: 20px 10px 7px 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.block_logo{
+    padding: 20px 0px;
+}
+.content{
+    display: flex; 
+    background-image: url(images/fon.png);
+    background-repeat: no-repeat;
+}
+.imager_container{
+    position: relative;
+    overflow: hidden;
+    width: 546px;
+    height: 543px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.imager_founder{
+    position: absolute;
+    top: 0;
+}
+.imger_dog{
+    position: absolute;
+    z-index: 20;
+    left: 9.52%;
+    right: 13.91%;
+    bottom: 3.51%;
+    border-radius: 24px;
+}
+.imger_group{
+    position: absolute;
+    z-index: 20;
+    
+
+}
+.vector{
+    position: absolute;
+    left: 9.27%;
+    right: 13.13%;
+    top: 11.13%;
+    bottom: 10.08%;
+    background: #FFE55E;
+    transform: matrix(0.99, 0.14, -0.14, 0.99, 0, 0);
+
+}
+
+.leg_first{
+    position: absolute;
+    left: 20%;
+    top: 65%;
+}
+
+.leg_second{
+    position: absolute;
+    left: 30%;
+    top: 21.5%;
+    transform: matrix(-1, 0.02, -0.02, -1, 0, 0);
+    
+}
+.leg_tree{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+.leg_four{
+    position: absolute;
+    left: 65%;
+    top: 22%;
+    transform: matrix(0.17, -0.99, 0.98, 0.18, 0, 0);
+
+}
+.leg_five{
+    position: absolute;
+    left: 65%;
+    top: 5.07%;
+    transform: matrix(0.3, -0.95, 0.95, 0.32, 0, 0);
+
+}
+.leg_six{
+
+    position: absolute;
+    left: 84.63%;
+    top: 18%;
+
+}
+.leg_seven{
+
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: matrix(0.42, -0.91, 0.9, 0.44, 0, 0);
+
+}
+
+.dog_first{
+    position: relative;
+    top:10%;
+    left: 9%;
+}
+.leg_purple{
+    position: relative;
+    left: 25%;
+    top: 50px;
+}
+
+.services{
+    margin-left: 201px;
+    margin-top: 123px;
+}
+.services_heading{
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 10.13px;
+}
+.services_category{
+    display: flex;
+    margin-top: 52px;
+}
+.category_block{
+    border: 1px solid #98f2e1;
+    border-radius: 25px;
+    width: 200px;
+    height: 224px;
+    box-shadow: 0 4px 74px 0 rgba(199, 231, 225, 0.27);
+    background: linear-gradient(180deg, #f9fffe 0%, rgba(255, 255, 255, 0) 100%);
+    margin-right: 31px;
+}
+.category_healthcare,
+.category_training{
+    border: 1px solid #ffee94;
+    box-shadow: 0 4px 74px 0 rgba(199, 231, 225, 0.27);
+    background: linear-gradient(180deg, #fffae0 0%, rgba(255, 255, 255, 0) 100%);
+}
+.category_title{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+.grooming_logo{
+    padding-top: 52.66px;
+    padding-left: 57px;
+}
+.grooming_title{
+    margin-top: 16.61px;
+    margin-left: 52px;
+}
+.healthcare_logo{
+    padding-top: 66.84px;
+    padding-left: 68px;
+}
+.healthcare_title{
+    padding-top: 31.39px;
+    padding-left: 45px;
+}
+.daycare_logo{
+    padding-top: 57.72px;
+    padding-left: 42px;
+}
+
+.daycare_title{
+    padding-top: 31.77px;
+    padding-left: 54px;
+}
+.training_logo{
+    padding-top: 61.29px;
+    padding-left: 70px;
+}
+.training_title{
+    padding-top: 30.7px;
+    padding-left: 55px;
+}
+.hyginiccare_logo{
+    padding-top: 64.81px;
+    padding-left: 59px;
+}
+.hyginiccare_title{
+    padding-top: 31.39px;
+    padding-left: 40px;
+}
+.leg_transparent{
+    position: relative;
+    top:41px;
+    left:1244px;
+}
+.content_dog{
+    display: flex;
+}
+.content_imager-dog{
+    width: 761px;
+    height: 750px;
+    margin-left: 91px;
+    margin-top: -66px;
+}
+.content_imager-video{
+    position: relative;
+    top: -79%;
+    left: 66%;
+}
+.content_imager-food{
+    position: relative;
+    top: -28%;
+    left: 36%;
+}
+.content_info{
+    width: 534px;
+    height: 321px;
+    margin-top: 43px;
+    padding-right: 167px;
+}
+.title_info{
+    width: 533px;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.05em;
+    color: #000;
+    padding-bottom: 10px;
+}
+.text_info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    color: #4e4c46;
+    padding-top: 23px;
+}
+.btn_info{
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 192px;
+    height: 59px;
+    background: #124c5f;
+    display: flex;
+    border: none;
+}
+.btn_info-title{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20.2px;
+    padding-left: 35.1px;
+}
+.btn_logo{
+    padding-top: 23.33px;
+    padding-left: 14.87px;
+}
+.discount {
+    font-size: 40px;
+    color: #000;
+}
+.bold {
+    font-family: 'Glades Bold', sans-serif;
+    font-weight: 700;
+}
+.regular {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.products {
+    font-family: 'Pangolin', sans-serif;
+    font-weight: 400;
+}
+.container_food{
+    width: 1177px;
+    height: 814px;
+    margin-left: 201px;
+}
+.dog_food-title{
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+}
+.food_discount{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.btn_food{
+    margin: 0;
+}
+.content_food{
+    display: flex;
+    justify-content: space-around;
+}
+.imager_food {
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+    display: inline-block; /* Чтобы контейнер занимал только необходимое пространство */
+}
+
+.img_pink {
+    width: 84%; /* Задаем ширину изображения по желанию */
+    height: auto; /* Сохраняем пропорции */
+    margin-top: 238.83px;
+}
+
+.dog_food-first {
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: -11%; /* Устанавливаем отступ сверху */
+    left: 43%; /* Устанавливаем отступ слева */
+    transform: translate(-50%, -50%); /* Центрируем изображение */
+    width: 203px; /* Задайте нужный размер изображения */
+    height: auto; /* Сохраняем пропорции */
+    margin-top: 249px;
+}
+.dog_food-second{
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: -11%; /* Устанавливаем отступ сверху */
+    left: 43%; /* Устанавливаем отступ слева */
+    transform: translate(-50%, -50%); /* Центрируем изображение */
+    width: 275px; /* Задайте нужный размер изображения */
+    height: auto; /* Сохраняем пропорции */
+    margin-top: 249px;
+
+}
+.food-title{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+    
+}
+.food_text{
+    font-size: 22px;
+    color: #979697;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    
+}
+.btn_food-buy{
+    
+    margin-left: 8px;
+    margin-top: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #124c5f;
+    border: 2px solid #124c5f;
+    border-radius: 6px;
+    width: 187px;
+    height: 52px;
+    background-color: white;
+}
+
+.block_people{
+    max-width: 1446px;
+    fill: linear-gradient(180deg, #f6fffd 0%, rgba(251, 251, 251, 0) 100%);
+}
+.block_people-info{
+    max-width: 508px;
+    margin-top: 56px;
+    margin-left: 175px;
+}
+.block_people-title{
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+.block_people-text{
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    color: #4e4c46;
+}
+.block_people{
+    display: flex;
+}
+.img_peopledog{
+    margin-left: 20px;
+}
+.img_legdog{
+    position: relative;
+    right: 61%;
+    bottom: 78%;
+}
+.img_collar{
+    position: relative;
+    right: 15.13%;
+    bottom: 58.54%;
+    transform: rotate(-16.08deg);
+
+}
+.img_bone{
+    position: relative;
+    right: 32.48%;
+    bottom: 15.9%;
+    transform: rotate(-22.93deg);
+
+}
+.catalog_own-title{
+    margin-left:161px;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+}
+.catalog_line{
+    margin-left:161px;
+}
+.catalog_own-card{
+    display: flex;
+    margin-left: 118px;
+}
+.catalog_own-img{
+    margin-right: 41px;
+}
+.img_first{
+    height: 458.14px;
+    margin-top: 44.44px;
+}
+.img_second{
+    height: 479.31px;
+    margin-top: 23.45px;
+}
+.img_tree{
+    height: 502.58px;
+}
+.btn_catalog{
+    margin-left: 607px;
+    margin-top: 85.23px;
+}
+.footer_content{
+    width: 1439px;
+    height: 655px;
+    background: #f6faf9;
+    margin-top: 97.4px;
+}
+.footer_title{
+    text-align: center;
+    padding-top: 85px;
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+.footer_email-btn{
+    display: flex;
+    width: 751px;
+    height: 118px;
+    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    margin-top: 57px;
+    margin-left: 392px;
+}
+.footer_email-logo{
+    padding-top: 48px;
+    padding-left: 39px;
+}
+.footer_email-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #414141;
+    padding-top: 46px;
+    padding-left: 19px;
+}
+.btn_email-footer{
+    border-radius: 5px;
+    width: 192px;
+    height: 59px;
+    background: #124c5f;
+    display: flex;
+    border: none;
+    margin-left: 151px;
+    margin-top: 33px;
+}
+.footer_info{
+    display: flex;
+    margin-top: 101px;
+}
+.info_first{
+    margin-left: 160px;
+    margin-right: 423px;
+}
+.info_logo{
+    margin-top: 15px;
+}
+.logo_facebook{
+    margin-right: 24px;
+}
+.info-title{
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #000;
+    padding-bottom: 12px;
+}
+.info_second{
+    margin-right: 134px;
+}
+.info_tel{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #124c5f;
+}
+.info_second-text{
+    padding-top: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    color: #757777;
+}
+.footer_line{
+    border: 1px solid #c7c7c7;
+    margin-top: 49px;
+}
+.footer_navigation{
+    display: flex;
+    margin-top: 29px;
+}
+.footer_navigation-text{
+    font-family: "Roboto", sans-serif;
+    margin-left: 177px;
+    margin-right: 148px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #414141;
+}
+.navigation_content{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation_content-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation-link{
+    font-family: "Pangolin", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    text-transform: lowercase;
+    margin-right: 57px;
+}
